@@ -169,7 +169,7 @@ class SnakeGame extends LitElement {
 
   initGame() {
     this.movingDirection = "Right";
-    this.playerLength = 12;
+    this.playerLength = 1;
     this.playerTail = [];
     this.setFruit();
     this.spawnPlayer();
